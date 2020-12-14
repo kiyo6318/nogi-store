@@ -1,0 +1,18 @@
+html,body{
+  width: 100%;
+}
+
+.container{
+  width: 100%;
+  text-align: center;
+}
+
+.top-image{
+  width: 50%;
+}
+
+@media screen and (max-width: 768px){
+  .top-image{
+    width: 100%;
+  }
+}
