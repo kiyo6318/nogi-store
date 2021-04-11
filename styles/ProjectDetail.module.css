@@ -23,3 +23,17 @@
 .year {
   font-size: 1.5rem;
 }
+
+.sp_container {
+  width: 360px;
+  margin: 0 auto;
+}
+
+.sp_title {
+  margin: 30px auto;
+  font-size: 18px;
+}
+
+.sp_body {
+  font-size: 16px;
+}
