@@ -36,7 +36,9 @@ export default function Header() {
       </MediaQuery>
       <MediaQuery query="(max-width: 767px)">
         <div className={styles.sp_container}>
-          <img className={styles.sp_logo} src="/images/nogi-store-logo.svg" />
+          <Link href="/">
+            <img className={styles.sp_logo} src="/images/nogi-store-logo.svg" />
+          </Link>
           <nav className={styles.sp_nav}>
             <Link href="/" className={styles.sp_nav_link}>
               top
