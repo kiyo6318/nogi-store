@@ -5,7 +5,7 @@
 }
 
 .sp_body {
-  margin: 2rem 1.5rem;
+  margin: 0 auto;
   width: 85%;
   font-size: 1.5rem;
 }
@@ -16,6 +16,6 @@
 }
 
 .sp_body img {
-  width: 200px;
-  height: 180px;
+  width: 80%;
+  height: 60%;
 }
