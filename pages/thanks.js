@@ -1,4 +1,4 @@
-export const Thanks = () => {
+export default function Thanks() {
   return (
     <div style="width: 90%; margin: 100px auto; max-width: 960px">
       <h1 style="text-align: center; font-size: 22px; font-weight: bold;">お問い合わせありがとうございました。</h1>
@@ -24,4 +24,4 @@ export const Thanks = () => {
       </div>
     </div>
   );
-};
+}
