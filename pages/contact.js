@@ -8,7 +8,7 @@ export default function Contact() {
       <MediaQuery query="(min-width: 767px)">
         <form
           name="contact"
-          action="/success.html"
+          action="/success"
           className={styles.form_style + " " + styles.pc_container}
           method="POST"
           data-netlify="true"
