@@ -16,11 +16,11 @@ export default function Contact() {
         <input type="hidden" name="bot-field" />
         <div className={styles.form_style}>
           <p className={styles.title}>お問い合わせ</p>
-          <div className={styles.tmp_info}>
+          {/* <div className={styles.tmp_info}>
             <p>nogi store</p>
             <p>contact@nogistore.net</p>
           </div>
-          <p className={styles.title}>お問い合わせフォーム　※準備中</p>
+          <p className={styles.title}>お問い合わせフォーム　※準備中</p> */}
           <label className={styles.name} htmlFor="name">
             <span>お名前</span>
             <input type="text" name="name" placeholder="禾乃アイ" />
@@ -28,12 +28,12 @@ export default function Contact() {
 
           <label className={styles.kana} htmlFor="kana">
             <span>ふりがな</span>
-            <input type="text" name="text" placeholder="のぎのあい" />
+            <input type="text" name="kana" placeholder="のぎのあい" />
           </label>
 
           <label className={styles.mail} htmlFor="mail">
             <span>メールアドレス</span>
-            <input type="email" name="mail" placeholder="xxxxx@xxx.com" />
+            <input type="email" name="email" placeholder="xxxxx@xxx.com" />
           </label>
 
           <label className={styles.tel} htmlFor="tel">
@@ -46,6 +46,7 @@ export default function Contact() {
             <span>郵便番号</span>
             <input
               type="text"
+              name="zip_code"
               className="p-postal-code"
               size="8"
               maxLength="8"
@@ -56,11 +57,13 @@ export default function Contact() {
             <span>ご住所</span>
             <input
               type="text"
+              name="location"
               className="p-region p-locality p-street-address p-extended-address"
               placeholder="xx県xx市xxxx123-4"
             />
           </label>
           <textarea
+            name="detail"
             className={styles.textarea}
             rows="15"
             cols="100"
