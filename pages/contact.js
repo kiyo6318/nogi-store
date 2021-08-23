@@ -5,7 +5,6 @@ import MediaQuery from "react-responsive";
 export default function Contact() {
   return (
     <div className={styles.wrapper}>
-      <div>aaa</div>
       <form
         name="contact"
         // action="/success"
