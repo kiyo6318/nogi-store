@@ -1,6 +1,6 @@
-import styles from '../styles/Contact.module.css';
-import Head from 'next/head';
-import MediaQuery from 'react-responsive';
+import styles from "../styles/Contact.module.css";
+import Head from "next/head";
+import MediaQuery from "react-responsive";
 
 export default function Contact() {
   return (
@@ -8,8 +8,8 @@ export default function Contact() {
       <MediaQuery query="(min-width: 767px)">
         <form
           name="contact"
-          action="/success"
-          className={styles.form_style + ' ' + styles.pc_container}
+          action="/success.html"
+          className={styles.form_style + " " + styles.pc_container}
           method="POST"
           data-netlify="true"
           netlify-honeypot="bot-field"
@@ -45,7 +45,13 @@ export default function Contact() {
           <label className={styles.zip_code}>
             <input type="hidden" className="p-country-name" value="Japan" />
             <span>郵便番号</span>
-            <input type="text" className="p-postal-code" size="8" maxLength="8" placeholder="123456" />
+            <input
+              type="text"
+              className="p-postal-code"
+              size="8"
+              maxLength="8"
+              placeholder="123456"
+            />
           </label>
           <label className={styles.address}>
             <span>ご住所</span>
@@ -55,7 +61,11 @@ export default function Contact() {
               placeholder="xx県xx市xxxx123-4"
             />
           </label>
-          <textarea rows="15" cols="100" placeholder="お問い合わせ内容"></textarea>
+          <textarea
+            rows="15"
+            cols="100"
+            placeholder="お問い合わせ内容"
+          ></textarea>
           <label className={styles.button_wrapper}>
             <button type="submit" className={styles.submit}>
               送信
@@ -113,7 +123,13 @@ export default function Contact() {
               <input type="hidden" className="p-country-name" value="Japan" />
               <span>郵便番号</span>
               <br />
-              <input type="text" className="p-postal-code" size="8" maxLength="8" placeholder="123456" />
+              <input
+                type="text"
+                className="p-postal-code"
+                size="8"
+                maxLength="8"
+                placeholder="123456"
+              />
             </label>
           </p>
           <p>
@@ -128,7 +144,10 @@ export default function Contact() {
             </label>
           </p>
           <p>
-            <textarea className={styles.sp_textarea} placeholder="お問い合わせ内容"></textarea>
+            <textarea
+              className={styles.sp_textarea}
+              placeholder="お問い合わせ内容"
+            ></textarea>
           </p>
           <p className={styles.sp_button_wrapper}>
             <label>
