@@ -14,6 +14,7 @@ export default function Contact() {
       >
         <input type="hidden" name="form-name" value="contact" />
         <input type="hidden" name="bot-field" />
+        <input type="hidden" name="subject" value="nogi store お問い合わせ" />
         <div className={styles.form_style}>
           <p className={styles.title}>お問い合わせ</p>
           {/* <div className={styles.tmp_info}>
