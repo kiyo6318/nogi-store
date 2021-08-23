@@ -6,7 +6,16 @@ export default function Contact() {
   return (
     <div className={styles.wrapper}>
       <MediaQuery query="(min-width: 767px)">
-        <form className={styles.form_style + ' ' + styles.pc_container} method="POST" netlify>
+        <form
+          name="contact"
+          action="/success"
+          className={styles.form_style + ' ' + styles.pc_container}
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="bot-field" />
           <p className={styles.title}>お問い合わせ</p>
           <div className={styles.tmp_info}>
             <p>nogi store</p>
@@ -55,7 +64,16 @@ export default function Contact() {
         </form>
       </MediaQuery>
       <MediaQuery query="(max-width: 767px)">
-        <form className={styles.sp_form_style} method="POST" netlify>
+        <form
+          className={styles.sp_form_style}
+          name="contact"
+          action="/success"
+          method="POST"
+          data-netlify="true"
+          netlify-honeypot="bot-field"
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="bot-field" />
           <p className={styles.sp_title}>お問い合わせ</p>
           <div className={styles.sp_tmp_info}>
             <p>nogi store</p>
