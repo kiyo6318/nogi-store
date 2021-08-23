@@ -1,134 +1,132 @@
-.pc_container {
-  /* margin: 0 auto; */
-  /* width: 60%; */
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .form_style {
+    font-size: 16px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .form_style > label {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .form_style > label > span {
+    float: left;
+    min-width: 250px;
+  }
+
+  .form_style > label > input {
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    background: none;
+    width: 100%;
+    height: 48px;
+    font-size: 16px;
+  }
+
+  .form_style > label > button {
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    background: none;
+  }
+
+  .button_wrapper {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .submit {
+    margin: 0 auto;
+    font-size: 2.5rem;
+    background: none;
+    border: none;
+    border-bottom: 2px solid gray;
+  }
+
+  .textarea {
+    /* resize: none; */
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+    border: 1px solid gray;
+    outline: none;
+  }
+
+  .tmp_info {
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+  }
 }
 
-.title {
-  margin: 8rem 0;
-}
+@media screen and (min-width: 767px) {
+  .title {
+    margin: 8rem 0;
+  }
 
-.form_style {
-  /* width: 750px; */
-  margin: 0 auto;
-  width: 60%;
-  font-size: 2.5rem;
-  margin-bottom: 10rem;
-}
+  .form_style {
+    margin: 0 auto;
+    width: 60%;
+    font-size: 2.5rem;
+    margin-bottom: 10rem;
+  }
 
-.form_style > label {
-  display: block;
-  margin-bottom: 30px;
-}
+  .form_style > label {
+    display: block;
+    margin-bottom: 30px;
+  }
 
-.form_style > label > span {
-  float: left;
-  min-width: 250px;
-}
+  .form_style > label > span {
+    float: left;
+    min-width: 250px;
+  }
 
-.form_style > label > input,
-.form_style > label > button {
-  border: none;
-  border-bottom: 1px solid gray;
-  outline: none;
-  background: none;
-}
+  .form_style > label > input,
+  .form_style > label > button {
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    background: none;
+  }
 
-.button_wrapper {
-  margin-top: 20px;
-  text-align: center;
-}
+  .button_wrapper {
+    margin-top: 20px;
+    text-align: center;
+  }
 
-.submit {
-  font-size: 2.5rem;
-}
+  .submit {
+    font-size: 2.5rem;
+  }
 
-.name > input,
-.kana > input,
-.mail > input {
-  width: 300px;
-}
+  .name > input,
+  .kana > input,
+  .mail > input {
+    width: 300px;
+  }
 
-.address > input {
-  width: 400px;
-}
+  .address > input {
+    width: 400px;
+  }
 
-.tmp_info {
-  width: 50%;
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-}
+  .textarea {
+    /* resize: none; */
+    margin-top: 20px;
+    width: 100%;
+    /* height: 100px; */
+    border: 1px solid gray;
+    outline: none;
+  }
 
-/* .sp_container {
-  margin: 0 auto;
-  font-size: 2.5rem;
-} */
-
-.sp_title {
-  font-size: 2.5rem;
-}
-
-.sp_form_style {
-  /* width: 750px; */
-  font-size: 16px;
-  width: 90%;
-  margin: 0 auto;
-  /* text-align: center; */
-  /* margin-bottom: 10rem; */
-}
-
-.sp_form_style > label {
-  /* display: block; */
-  /* margin-bottom: 30px; */
-}
-
-.sp_form_style > label > span {
-  /* float: left; */
-  /* min-width: 250px; */
-}
-
-.sp_form_style > p > label > input {
-  border: none;
-  border-bottom: 1px solid gray;
-  outline: none;
-  background: none;
-  width: 100%;
-  height: 48px;
-  font-size: 16px;
-}
-
-.sp_button_wrapper {
-  text-align: center;
-}
-
-.sp_submit {
-  margin: 0 auto;
-  font-size: 2.5rem;
-  background: none;
-  border: none;
-  border-bottom: 2px solid gray;
-}
-
-.sp_name > input,
-.sp_kana > input,
-.sp_mail > input {
-  /* width: 300px; */
-}
-
-.sp_address > input {
-  /* width: 400px; */
-}
-
-.sp_textarea {
-  resize: none;
-  width: 100%;
-  height: 100px;
-  border: 1px solid gray;
-  outline: none;
-}
-
-.sp_tmp_info {
-  font-size: 20px;
-  width: 50%;
-  text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  .tmp_info {
+    width: 50%;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+  }
 }
