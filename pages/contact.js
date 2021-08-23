@@ -76,14 +76,14 @@ export default function Contact() {
       <MediaQuery query="(max-width: 767px)">
         <form
           className={styles.sp_form_style}
-          name="contact"
-          action="/success"
-          method="POST"
-          data-netlify="true"
-          netlify-honeypot="bot-field"
+          // name="contact"
+          // action="/success"
+          // method="POST"
+          // data-netlify="true"
+          // netlify-honeypot="bot-field"
         >
-          <input type="hidden" name="form-name" value="contact" />
-          <input type="hidden" name="bot-field" />
+          {/* <input type="hidden" name="form-name" value="contact" /> */}
+          {/* <input type="hidden" name="bot-field" /> */}
           <p className={styles.sp_title}>お問い合わせ</p>
           <div className={styles.sp_tmp_info}>
             <p>nogi store</p>
