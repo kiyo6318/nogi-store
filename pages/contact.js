@@ -158,6 +158,9 @@ export default function Contact() {
           </p>
         </form>
       </MediaQuery>
+      <a href="/success" method="POST">
+        a
+      </a>
     </div>
   );
 }
