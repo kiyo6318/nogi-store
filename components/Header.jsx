@@ -1,7 +1,7 @@
-import React, { ReactNode } from 'react';
-import Link from 'next/link';
-import styles from '../styles/Header.module.css';
-import MediaQuery from 'react-responsive';
+import React, { ReactNode } from "react";
+import Link from "next/link";
+import styles from "../styles/Header.module.css";
+import MediaQuery from "react-responsive";
 
 export default function Header() {
   return (
@@ -14,10 +14,13 @@ export default function Header() {
           <div className={styles.pc_external}>
             <Link href="https://www.instagram.com/nogi.store/">
               <a target="_blank">
-                <img className={styles.pc_instagram} src="/images/instagram-icon.svg" />
+                <img
+                  className={styles.pc_instagram}
+                  src="/images/instagram-icon.svg"
+                />
               </a>
             </Link>
-            <Link href="mailto:contact@nogistore.net">
+            <Link href="mailto:nogistore.awaji@gmail.com">
               <img className={styles.pc_email} src="/images/email-icon.svg" />
             </Link>
           </div>
@@ -53,7 +56,10 @@ export default function Header() {
           <div className={styles.sp_external}>
             <Link href="https://www.instagram.com/nogi.store/">
               <a target="_blank">
-                <img className={styles.sp_instagram} src="/images/instagram-icon.svg" />
+                <img
+                  className={styles.sp_instagram}
+                  src="/images/instagram-icon.svg"
+                />
               </a>
             </Link>
             <Link href="mailto:contact@nogistore.net">
